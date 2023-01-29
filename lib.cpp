@@ -74,7 +74,7 @@ int main()
                      printf("\nbookno \tbookname \tauthorname \tcost \t\tstudentname \tdate\n");
                     for(ii=0;ii<count;ii++)  
                     {  
-                       printf(" %d \t %s \t\t %s \t\t %f \t %s \t\t %s",lib[ii].bookno,lib[ii].bookname, lib[ii].authorname,lib[ii].cost,lib[ii].studentname,lib[ii].date);                       
+                       printf(" %d \t %s \t\t %s \t\t %f \t %s \t\t %s\n",lib[ii].bookno,lib[ii].bookname, lib[ii].authorname,lib[ii].cost,lib[ii].studentname,lib[ii].date);                       
                        /* printf("\nThe no of the book is: %d ", lib[ii].bookno);
                         printf(" \nThe name of the book is: %s ", lib[ii].bookname);  
                         printf(" \nThe name of the author is: %s ", lib[ii].authorname);  
